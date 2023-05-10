@@ -1,0 +1,41 @@
+.miniHeaderWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+  background-color: #232e3e;
+}
+.miniHeader {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  column-gap: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.miniHeaderLinks {
+  color: #fff;
+  text-decoration: none;
+  padding: 3px 7px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.miniHeaderLinks:hover{
+  border: 1px solid #fff;
+}
+
+.leftLinks {
+  padding-right: 20px;
+}
