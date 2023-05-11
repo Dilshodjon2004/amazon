@@ -19,7 +19,11 @@ const MiniHeader = () => {
         ))}
       </div>
       <div className={c.leftLinks}>
-        <Link className={c.miniHeaderLinks} to="#" key={uuidv4()}>
+        <Link
+          className={`${c.miniHeaderLinks}`}
+          to="#"
+          key={uuidv4()}
+        >
           Shop great deals now
         </Link>
       </div>

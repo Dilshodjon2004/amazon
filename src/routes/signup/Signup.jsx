@@ -1,20 +1,12 @@
 import { Link } from "react-router-dom";
 import { AiFillCaretRight } from "react-icons/ai";
-import React, { useState } from "react";
+import React from "react";
 import logo from "../../assets/images/logo-black.png";
 import { CiSquareAlert } from "react-icons/ci";
 import "./Signup.css";
 
 const Login = () => {
-  const [isIconDownVisible, setIsIconDownVisible] = useState(true);
-  const [isIconRightVisible, setIsIconRightVisible] = useState(false);
-  const [isProblemVisible, setIsProblemVisible] = useState(false);
 
-  const showOrHide = () => {
-    setIsIconDownVisible(!isIconDownVisible);
-    setIsIconRightVisible(!isIconRightVisible);
-    setIsProblemVisible(!isProblemVisible);
-  };
 
   return (
     <div className="formWrapper">

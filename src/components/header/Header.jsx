@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo-white.png";
 import usFlag from "../../assets/images/us.aad6efeb.svg";
 import { GoLocation } from "react-icons/go";
-import { BiSearchAlt2, BiCaretDown } from "react-icons/bi";
+import { BiCaretDown } from "react-icons/bi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { useState } from "react";
+import SearchBar from "../searchBar/SearchBar";
 const Header = () => {
-  const [selectedOption, setSelectedOption] = useState("all");
   const [hover, setHover] = useState(false);
   const onMouseEnter = () => {
     setHover(true);
@@ -32,35 +32,8 @@ const Header = () => {
             <h4>Uzbekistan</h4>
           </div>
         </div>
-        <div className="search-bar__wrapper">
-          <select
-            id="category"
-            className="category"
-            style={
-              selectedOption.length <= 7
-                ? { width: `${selectedOption.length * 14}px` }
-                : { width: `${selectedOption.length * 10}px` }
-            }
-            onChange={(e) => {
-              setSelectedOption(e.target.value);
-            }}
-          >
-            <option value="all">All</option>
-            <option value="clothes">Clothes</option>
-            <option value="smartphones">Smartphones</option>
-            <option value="watches">Watches</option>
-            <option value="laptops">Laptops</option>
-            <option value="personal care">Personal Care</option>
-          </select>
-          <input
-            type="search"
-            id="search"
-            className="search"
-            placeholder="Search"
-          />
-          <div className="search-icon">
-            <BiSearchAlt2 />
-          </div>
+        <div className="general-nav">
+          <SearchBar />
         </div>
         <div className="header-account">
           <div
@@ -172,6 +145,9 @@ const Header = () => {
             </div>
           </Link>
         </div>
+      </div>
+      <div className="additonal-nav">
+        <SearchBar />
       </div>
     </div>
   );
