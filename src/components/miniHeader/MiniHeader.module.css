@@ -5,6 +5,8 @@
   justify-content: space-between;
   min-height: 50px;
   background-color: #232e3e;
+  position: fixed;
+  z-index: 14;
 }
 .miniHeader {
   display: flex;

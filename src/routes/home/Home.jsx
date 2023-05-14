@@ -1,11 +1,11 @@
-import React from "react";
-import Header from "../../components/header/Header";
+import React from "react"; 
 import MiniHeader from "../../components/miniHeader/MiniHeader";
+import Banner from "../../components/banner/Banner";
 const Home = () => {
   return (
     <>
-      <Header />
-      <MiniHeader/>
+      <MiniHeader />
+      <Banner/>
     </>
   );
 };

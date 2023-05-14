@@ -3,8 +3,7 @@ import { Route } from "react-router-dom";
 import Home from "./home/Home";
 import Login from "./login/Login";
 import Signup from "./signup/Signup";
-
-const index = () => {
+const Routes = () => {
   return (
     <>
       <Route exact path="/">
@@ -20,4 +19,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Routes;

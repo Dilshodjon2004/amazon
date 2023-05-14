@@ -1,6 +1,6 @@
 import { React } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/images/logo-white.png";
 import usFlag from "../../assets/images/us.aad6efeb.svg";
 import { GoLocation } from "react-icons/go";
@@ -9,6 +9,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { useState } from "react";
 import SearchBar from "../searchBar/SearchBar";
 const Header = () => {
+  const { pathname } = useLocation();
   const [hover, setHover] = useState(false);
   const onMouseEnter = () => {
     setHover(true);
@@ -17,6 +18,9 @@ const Header = () => {
   const onMouseLeave = () => {
     setHover(false);
   };
+  if (pathname.includes("login") || pathname.includes("signup")) {
+    return;
+  }
   return (
     <div className="header">
       <div className="header-items__wrapper">
