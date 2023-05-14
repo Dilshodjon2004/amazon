@@ -5,7 +5,6 @@
   justify-content: space-between;
   min-height: 50px;
   background-color: #232e3e;
-  position: fixed;
   z-index: 14;
 }
 .miniHeader {
@@ -32,6 +31,7 @@
   padding: 3px 7px;
   border: 1px solid transparent;
   border-radius: 3px;
+  font-size: 14px;
 }
 
 .miniHeaderLinks:hover {

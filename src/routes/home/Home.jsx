@@ -1,11 +1,13 @@
-import React from "react"; 
-import MiniHeader from "../../components/miniHeader/MiniHeader";
+import React from "react";
 import Banner from "../../components/banner/Banner";
+import Main from "../../components/main/Main";
+import "./Home.module.css";
 const Home = () => {
   return (
     <>
-      <MiniHeader />
-      <Banner/>
+      
+      <Banner />
+      <Main />
     </>
   );
 };

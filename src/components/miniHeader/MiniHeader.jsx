@@ -2,9 +2,14 @@ import React from "react";
 import c from "./MiniHeader.module.css";
 import { BiMenu } from "react-icons/bi";
 import miniHeaderLinks from "../../data/dummy-miniHeader.json";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
+
 const MiniHeader = () => {
+  const { pathname } = useLocation();
+  if (pathname.includes("login") || pathname.includes("signup")) {
+    return;
+  }
   return (
     <div className={c.miniHeaderWrapper}>
       <div className={c.miniHeader}>

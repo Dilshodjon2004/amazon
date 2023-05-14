@@ -1,5 +1,23 @@
 .container {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0 1rem;
+}
+
+.container:has(.banner) {
+  padding: 0;
+}
+
+.back-to-top {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #37475a;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.back-to-top:hover {
+  background-color: #55687f;
 }
