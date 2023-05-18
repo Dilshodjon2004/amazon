@@ -1,0 +1,346 @@
+[
+  {
+    "sidebarMenuTitle": "Digital Content & Devices",
+    "sidebarMenuItems": [
+      {
+        "sidebarMainTitle": "Amazon music",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Stream music",
+            "subitems": [
+              "Amazon Music Unlimited",
+              "Free Streaming Music",
+              "Podcasts",
+              "Open Web Player",
+              "Open Web Player",
+              "Download the app"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Kindle E-readers & Books",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Kindle E-Readers",
+            "subitems": [
+              "Kindle kids",
+              "Kindle",
+              "Kindle Paperwhite",
+              "Kindle Oasis",
+              "Introducing Kindle Scribe",
+              "Accessories",
+              "See all Kindle E-Readers"
+            ]
+          },
+          {
+            "subitemTitle": "Kindle Store",
+            "subitems": [
+              "Kindle Books",
+              "Kindle Unlimited",
+              "Prime Reading",
+              "Kindle Vella"
+            ]
+          },
+          {
+            "subitemTitle": "Apps & Resources",
+            "subitems": [
+              "Free Kindle Reading Apps",
+              "Kindle for Web",
+              "Manage Your Content and Devices"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Amazon Appstore",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Amazon Appstore",
+            "subitems": [
+              "All Apps and Games",
+              "Games",
+              "Amazon Coins",
+              "Download Amazon Appstore",
+              "Amazon Apps",
+              "Your Apps and Subscriptions"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sidebarMenuTitle": "Shop by department",
+    "sidebarMenuItems": [
+      {
+        "sidebarMainTitle": "Electronics",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Electronics",
+            "subitems": [
+              "Accessories & Supplies",
+              "Camera & Photo",
+              "Car & Vehicle Electronics",
+              "Cell Phones & Accessories",
+              "Computers & Accessories",
+              "GPS & Navigation",
+              "Headphones",
+              "Home Audio",
+              "Office Electronics",
+              "Portable Audio & Video",
+              "Security & Surveillance",
+              "Service Plans",
+              "Television & Video",
+              "Video Game Consoles & Accessories",
+              "Video Projectors",
+              "Wearable Technology",
+              "eBook Readers & Accessories"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Computers",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Computers",
+            "subitems": [
+              "Computer Accessories & Peripherals",
+              "Computer Components",
+              "Computers & Tablets",
+              "Data Storage",
+              "External Componenets",
+              "Laptop Accessories",
+              "Monitors",
+              "Networking Products",
+              "Power Strips & Surge Protectors",
+              "Printers",
+              "Scanners",
+              "Servers",
+              "Tablet Accessories",
+              "Tablet Replacement Parts",
+              "Warraties & Services"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Smart Home",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Smart Home",
+            "subitems": [
+              "Amazon Smart Home",
+              "Smart Home Lighting",
+              "Smart Locks and Entry",
+              "Security Cameras and Systems",
+              "Plugs and Outlets",
+              "New Smart Devices",
+              "Heating and Cooling",
+              "Detectors and Sensors",
+              "Home Entertainment",
+              "Pet",
+              "Voice Assistants and Hubs",
+              "Kitchen",
+              "Vacuums and Mops",
+              "Lawn and Garden",
+              "WIFI and Networking",
+              "Other Solutions"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Arts & Crafts",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Arts & Crafts",
+            "subitems": [
+              "Painting, Drawing & Art Supplies",
+              "Beading & Jewelery Making",
+              "Crafting",
+              "Fabric",
+              "Fabric Decorating",
+              "Knitting & Crochet",
+              "Needlework",
+              "Organization, Storage & Transport",
+              "Printmaking",
+              "Scrapbooking & Stamping",
+              "Sewing",
+              "Party Decorations & Supplies",
+              "Gift Wrapping Supplies"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Automative",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Automative",
+            "subitems": [
+              "Car care",
+              "Car Electronics & Accessories",
+              "Exterior Accessories",
+              "Interior Accessories",
+              "Lights & Lighting Accessories",
+              "Motorcycle & Powersports",
+              "Oils & Fluids",
+              "Paint & Paint Supplies",
+              "Performance Parts & Accessories",
+              "Replacement PArts",
+              "Rv Parts & Accessories",
+              "Tires & Wheels",
+              "Tools & Equipment",
+              "Automative Enthusiast Mechandise",
+              "Heavy Duty & Commercial Vehicle Equipment"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Baby",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Baby",
+            "subitems": [
+              "Activity & Entertainment",
+              "Apparel & Accessories",
+              "Baby & Toddler Toys",
+              "Baby Care",
+              "Baby Stationary",
+              "Car Seats & Accessories",
+              "Diapering",
+              "Feeding",
+              "Gifts",
+              "Nursery",
+              "Potty Training",
+              "Pregnancy & Maternity",
+              "Safety",
+              "Stollers & Accessories",
+              "Travel Gear"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Beauty and Personal Care",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Beauty and Personal Care",
+            "subitems": [
+              "Makeup",
+              "Skin Care",
+              "Hair Care",
+              "Fragrance",
+              "Foot, Hand & Nail Care",
+              "Tools & Accessories",
+              "Shave & hair Removal",
+              "Personal Care",
+              "Oral Care"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Women's Fashion",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Women's Fashion",
+            "subitems": [
+              "Clothing",
+              "Shoes",
+              "Jewelry",
+              "Watches",
+              "Handbags",
+              "Accessories",
+              "Men's Fashion",
+              "Girl's Fashion",
+              "Boys' Fashion"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Men's Fashion",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Men's Fashion",
+            "subitems": [
+              "Clothing",
+              "Shoes",
+              "Watches",
+              "Accessories",
+              "Women's Fashion",
+              "Girl's Fashion",
+              "Boys' Fashion"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sidebarMenuTitle": "Programs & Features",
+    "sidebarMenuItems": [
+      {
+        "sidebarMainTitle": "Gift Cards",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Give A Gift Card",
+            "subitems": [
+              "All gift cards",
+              "eGift cards",
+              "Gift cards by mail",
+              "Speciality gift cards",
+              "Amazon Cash",
+              "For Businesses"
+            ]
+          },
+          {
+            "subitemTitle": "Manage Your Gift Card",
+            "subitems": [
+              "Redeem a gift card",
+              "View Your Balance",
+              "Reload Your Balance"
+            ]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "Amazon Live",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "Amazon Live",
+            "subitems": ["Live", "Recently Live"]
+          }
+        ]
+      },
+      {
+        "sidebarMainTitle": "International Shopping",
+        "type": "side",
+        "subitemsWrapper": [
+          {
+            "subitemTitle": "International Shopping",
+            "subitems": ["Where we ship", "Visit Amazon Global"]
+          }
+        ]
+      }
+    ]
+  }
+]

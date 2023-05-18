@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+.container:has(main){
+  max-width: 1500px !important;
+}
+
 .back-to-top {
   width: 100%;
   padding: 15px 0;
@@ -16,8 +20,19 @@
   display: grid;
   place-items: center;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .back-to-top:hover {
   background-color: #55687f;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0000006f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
 }

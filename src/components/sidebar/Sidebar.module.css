@@ -1,0 +1,130 @@
+.sidebar {
+  width: 400px;
+  height: 100vh;
+  background-color: red;
+  position: fixed;
+  display: flex;
+  overflow: hidden;
+  top: 0;
+  left: -450px;
+  z-index: 15;
+  transition: 0.3s;
+  display: flex;
+}
+
+.active {
+  left: 0;
+  transition: 0.5s;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  left: 400px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  z-index: 13;
+}
+
+.sidebarItemsWrapper {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-width: 400px;
+  background-color: #fff;
+}
+
+.sidebarItem {
+  width: 100%;
+  padding: 15px 30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #615f5f;
+}
+
+.sidebarItem:hover {
+  background-color: #ebeaea;
+} 
+
+.sidebarItem svg {
+  font-size: 30px;
+}
+
+.sidebarOpen {
+  width: 100%;
+  height: 100%;
+  min-width: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.sidebarSignIn {
+  width: 100%;
+  padding: 10px 0 10px 36px;
+  background-color: #232f3e;
+}
+
+.sidebarSignIn a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.sidebarSignIn svg {
+  font-size: 25px;
+}
+
+.sidebarTitle {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 22px;
+  margin: 10px 30px;
+  padding-top: 15px;
+}
+
+.sidebarSignIn span {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid #d5dbdb;
+}
+
+.showHide {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.backToMain {
+  width: 100%;
+  background-color: transparent;
+  padding: 13px 20px 13px 36px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 600;
+}
+
+.backToMain svg {
+  font-size: 18px;
+}
+
+.sidebarSubTitle {
+  font-size: 22px;
+  margin: 10px 36px;
+}
+
+.sidebarSubItem {
+  color: #615f5f;
+  padding: 13px 10px 13px 36px;
+  font-size: 17px;
+}

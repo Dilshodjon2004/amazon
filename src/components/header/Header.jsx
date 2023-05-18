@@ -62,7 +62,7 @@ const Header = () => {
                   id="eng_lang"
                   value="English"
                 />
-                <label for="eng_lang">English - EN</label>
+                <label htmlFor="eng_lang">English - EN</label>
               </div>
               <hr className="line" />
               <div className="language-option">
@@ -72,7 +72,7 @@ const Header = () => {
                   id="espanol_lang"
                   value="Espanol"
                 />
-                <label for="espanol">Espanol - ES</label>
+                <label htmlFor="espanol">Espanol - ES</label>
               </div>
               <br />
               <div className="language-option">
@@ -82,7 +82,7 @@ const Header = () => {
                   id="chinese_lang"
                   value="Chinese"
                 />
-                <label for="chinese">Chinese - CH</label>
+                <label htmlFor="chinese">Chinese - CH</label>
               </div>
               <br />
               <div className="language-option">
@@ -92,7 +92,7 @@ const Header = () => {
                   id="korean_lang"
                   value="Korean"
                 />
-                <label for="korean">Korean - KR</label>
+                <label htmlFor="korean">Korean - KR</label>
               </div>
               <br />
               <div className="language-option">
@@ -102,7 +102,7 @@ const Header = () => {
                   id="uzbek_lang"
                   value="Uzbek"
                 />
-                <label for="uxbek">Uzbek - UZ</label>
+                <label htmlFor="uzbek">Uzbek - UZ</label>
               </div>
               <br />
               <div className="language-option">
@@ -112,7 +112,7 @@ const Header = () => {
                   id="russian_lang"
                   value="Russian"
                 />
-                <label for="russian">Russian - RU</label>
+                <label htmlFor="russian">Russian - RU</label>
               </div>
               <br />
               <div className="language-option">
@@ -122,7 +122,7 @@ const Header = () => {
                   id="deutsch_lang"
                   value="Deutsch"
                 />
-                <label for="deutsch">Deutsch - DE</label>
+                <label htmlFor="deutsch">Deutsch - DE</label>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ const Header = () => {
               <h4>&Orders</h4>
             </div>
           </div>
-          <Link className="cartLink">
+          <Link to="#" className="cartLink">
             <div className="cart">
               <div className="counter">0</div>
               <AiOutlineShoppingCart />

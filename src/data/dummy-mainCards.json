@@ -1,47 +1,55 @@
 [
   {
+    "id":0,
     "cardImage": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_1X._SY304_CB639759658_.jpg",
     "title": "New arrivals in Toys",
     "linkLabel": "See more",
     "linkURL": "/seemore"
   },
   {
+    "id": 1,
     "cardImage": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg",
     "title": "Health & Personal Care",
     "linkLabel": "Shop now",
     "linkURL": "/shopnow"
   },
   {
+    "id": 2,
     "cardImage": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/Fuji_dash_dress_1X._SY304_CB626369146_.jpg",
     "title": "Dresses",
     "linkLabel": "Shop now",
     "linkURL": "/shopnow"
   },
   {
+    "id": 3,
     "cardImage": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg",
     "title": "Beauty picks",
     "linkLabel": "Shop now",
     "linkURL": "/shopnow"
   },
   {
+    "id": 4,
     "cardImage": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg",
     "title": "Shop Laptops & Tablets",
     "linkLabel": "See more",
     "linkURL": "/seemore"
   },
   {
+    "id": 5,
     "cardImage": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_StripLighting_379x304_1X_en_US._SY304_CB418597476_.jpg",
     "title": "Create with strip lights",
     "linkLabel": "See more",
     "linkURL": "/seemore"
   },
   {
+    "id": 6,
     "cardImage": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg",
     "title": "Electronics",
     "linkLabel": "See more",
     "linkURL": "/seemore"
   },
   {
+    "id": 7,
     "cardImage": "https://images-na.ssl-images-amazon.com/images/G/01/home/THILGMA/SpringEvent2023/XCM_CUTTLE_1559454_3018199_379x304_1X_en_US._SY304_CB592739737_.jpg",
     "title": "Home refresh ideas",
     "linkLabel": "Shop kitchen upgrades",

@@ -5,7 +5,7 @@ import miniHeaderLinks from "../../data/dummy-miniHeader.json";
 import { Link, useLocation } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 
-const MiniHeader = () => {
+const MiniHeader = ({ isSidebarOpen, setIsSidebarOpen }) => {
   const { pathname } = useLocation();
   if (pathname.includes("login") || pathname.includes("signup")) {
     return;
@@ -13,7 +13,10 @@ const MiniHeader = () => {
   return (
     <div className={c.miniHeaderWrapper}>
       <div className={c.miniHeader}>
-        <button className={c.menu}>
+        <button
+          className={c.menu}
+          onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+        >
           <BiMenu />
           All
         </button>
@@ -24,11 +27,7 @@ const MiniHeader = () => {
         ))}
       </div>
       <div className={c.leftLinks}>
-        <Link
-          className={`${c.miniHeaderLinks}`}
-          to="#"
-          key={uuidv4()}
-        >
+        <Link className={`${c.miniHeaderLinks}`} to="#" key={uuidv4()}>
           Shop great deals now
         </Link>
       </div>

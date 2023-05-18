@@ -10,6 +10,7 @@ const Main = () => {
         <div className={c.wrapper}>
           {allCards.map((cardItem) => (
             <MainCard
+              itemIndex={cardItem.id}
               image={cardItem.cardImage}
               title={cardItem.title}
               linkText={cardItem.linkLabel}
