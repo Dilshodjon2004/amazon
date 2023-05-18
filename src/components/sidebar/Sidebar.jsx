@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FiArrowLeft, FiX } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
 import { RxCaretRight, RxCaretDown, RxCaretUp } from "react-icons/rx";
-import sidebarData from "../../data/dummy-fake.json";
+import sidebarData from "../../data/dummy-sidebar.json";
 const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {
   const [selectedSidebarItem, setSelectedSidebarItem] = useState(null);
   const sidebarOpen = useRef();
