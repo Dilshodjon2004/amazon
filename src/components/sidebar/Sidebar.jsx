@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { FiArrowLeft, FiX } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
 import { RxCaretRight, RxCaretDown, RxCaretUp } from "react-icons/rx";
+import { CiGlobe } from "react-icons/ci";
+import usFlag from "../../assets/images/us.aad6efeb.svg";
 import sidebarData from "../../data/dummy-sidebar.json";
 const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {
   const [selectedSidebarItem, setSelectedSidebarItem] = useState(null);
@@ -79,6 +81,26 @@ const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {
               <div className={c.line}></div>
             </>
           ))}
+          <h2 className={c.sidebarTitle}>Help & Settings</h2>
+          <div className={c.sidebarItem}>
+            <p>Your Account</p>
+          </div>
+          <div className={`${c.sidebarItem} ${c.sidebarLang}`}>
+            <p>
+              <CiGlobe /> English
+            </p>
+          </div>
+          <div className={`${c.sidebarItem} ${c.sidebarLang}`}>
+            <p>
+              <img src={usFlag} alt="" /> United States
+            </p>
+          </div>
+          <div className={`${c.sidebarItem}`}>
+            <p>Customer Service</p>
+          </div>
+          <div className={`${c.sidebarItem}`}>
+            <p>Sign in</p>
+          </div>
         </div>
 
         <div className={c.sidebarOpen}>
