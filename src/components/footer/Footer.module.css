@@ -1,0 +1,41 @@
+.footer {
+  padding: 20px;
+  background-color: #232f3e;
+  /* width: 100%; */
+}
+
+.footerItemsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+}
+
+.footerItemTitle {
+  color: var(--primary-light-color);
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.footerLink {
+  color: #ddd;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footerLink:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+

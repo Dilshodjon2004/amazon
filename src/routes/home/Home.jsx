@@ -5,7 +5,6 @@ import "./Home.module.css";
 const Home = () => {
   return (
     <>
-      
       <Banner />
       <Main />
     </>

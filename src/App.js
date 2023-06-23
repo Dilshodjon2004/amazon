@@ -5,6 +5,8 @@ import Routes from "./routes/Routes";
 import { BackToTop, Overlay } from "./utils";
 import Sidebar from "./components/sidebar/Sidebar";
 import { useState, useEffect } from "react";
+import Footer from "./components/footer/Footer";
+import SubFooter from "./components/subFooter/SubFooter";
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -29,6 +31,8 @@ function App() {
         setIsSidebarOpen={setIsSidebarOpen}
       />
       {isSidebarOpen && <Overlay setIsSidebarOpen={setIsSidebarOpen} />}
+      <Footer />
+      <SubFooter/>
     </div>
   );
 }
